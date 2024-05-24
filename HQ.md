@@ -1,0 +1,19 @@
+Base Modules
+- C&C - hardened
+	- Computer for communicating with Factions
+	- Comm hardware (satellite dish)
+	- Map for planning
+	- File cabinet - dossiers for hiring recruits
+- Development - hardened
+	- Stations for each player to interact with
+- Medical - Tent
+	- 2 Cots for persons to lay on
+	- Tray with implements
+	- Shelving/cabinets to hold equipment (bandages, meds)
+- Sleeping - Tent
+	- Trigger time moving forward
+- Storage Depot
+	- Armory cabinets
+		- Store weapons, ammo, explosives
+	- Supply cabinets
+		- All other equipment (skill related items)

@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"0bd7991ee3699eb4","type":"text","text":"NPCs","x":-116,"y":-166,"width":136,"height":60},
+		{"id":"0987f08164ec11c2","type":"text","text":"Hostile","x":-125,"y":-300,"width":155,"height":60},
+		{"id":"744599c78ab2ec5e","type":"text","text":"Recruit in the development phase, Moles?","x":335,"y":-166,"width":265,"height":60},
+		{"id":"2f220295016320c4","type":"text","text":"Innocent bystanders in combat phase","x":335,"y":-60,"width":250,"height":60},
+		{"id":"f36085c1e3351866","type":"text","text":"Drive missions and events in Planning phase","x":335,"y":-270,"width":250,"height":60},
+		{"id":"4fc5ee678f2003dd","type":"text","text":"Develop???","x":-138,"y":123,"width":182,"height":60},
+		{"id":"262ee63e3e931dcf","type":"text","text":"Assign in planning phase","x":-360,"y":123,"width":192,"height":60},
+		{"id":"31f518010eafedf5","type":"text","text":"Combat phase","x":85,"y":123,"width":250,"height":60},
+		{"id":"317d1e1090846041","type":"text","text":"Friendly","x":-125,"y":-30,"width":155,"height":60},
+		{"id":"db11f20e9e3c5a85","type":"text","text":"Behavior modelling","x":-356,"y":-429,"width":250,"height":60},
+		{"id":"daf6e6d334ebb6f1","type":"text","text":"Difficulty","x":20,"y":-429,"width":250,"height":60},
+		{"id":"abeb0c629baf5edc","type":"text","text":"Player controlled","x":242,"y":281,"width":250,"height":60},
+		{"id":"9e9f50ea80a3658a","type":"text","text":"Behavior modelling controlled or in \"stand-by\"","x":-48,"y":281,"width":258,"height":60},
+		{"id":"f2add1fbf9a4182e","type":"text","text":"Neutral: locals, story related,  or hirables","x":72,"y":-189,"width":198,"height":106},
+		{"id":"d35ca35eb4d64070","type":"text","text":"Default to defensive style","x":-231,"y":420,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"b5fb20f2fd3e0f7e","fromNode":"0bd7991ee3699eb4","fromSide":"bottom","toNode":"317d1e1090846041","toSide":"top"},
+		{"id":"6699213a0c5bbfba","fromNode":"0bd7991ee3699eb4","fromSide":"top","toNode":"0987f08164ec11c2","toSide":"bottom"},
+		{"id":"7111f4457344f0e9","fromNode":"0bd7991ee3699eb4","fromSide":"right","toNode":"f2add1fbf9a4182e","toSide":"left"},
+		{"id":"d0a5b0d4d4bb7592","fromNode":"317d1e1090846041","fromSide":"bottom","toNode":"31f518010eafedf5","toSide":"top"},
+		{"id":"e6ade4ce92a9cb48","fromNode":"317d1e1090846041","fromSide":"bottom","toNode":"262ee63e3e931dcf","toSide":"top"},
+		{"id":"3a31765f18760b99","fromNode":"f2add1fbf9a4182e","fromSide":"right","toNode":"2f220295016320c4","toSide":"left"},
+		{"id":"2e5eda0a6288ed92","fromNode":"f2add1fbf9a4182e","fromSide":"right","toNode":"f36085c1e3351866","toSide":"left"},
+		{"id":"862f549cddc30986","fromNode":"f2add1fbf9a4182e","fromSide":"right","toNode":"744599c78ab2ec5e","toSide":"left"},
+		{"id":"356bbd8f5809a7fe","fromNode":"317d1e1090846041","fromSide":"bottom","toNode":"4fc5ee678f2003dd","toSide":"top"},
+		{"id":"c8fb1c0db1e04480","fromNode":"0987f08164ec11c2","fromSide":"top","toNode":"db11f20e9e3c5a85","toSide":"bottom"},
+		{"id":"bb6603db32e79c00","fromNode":"0987f08164ec11c2","fromSide":"top","toNode":"daf6e6d334ebb6f1","toSide":"bottom"},
+		{"id":"d4e5a86995071711","fromNode":"31f518010eafedf5","fromSide":"bottom","toNode":"9e9f50ea80a3658a","toSide":"top"},
+		{"id":"f6118468f6109560","fromNode":"31f518010eafedf5","fromSide":"bottom","toNode":"abeb0c629baf5edc","toSide":"top"},
+		{"id":"e651023445e6708a","fromNode":"9e9f50ea80a3658a","fromSide":"bottom","toNode":"d35ca35eb4d64070","toSide":"top"}
+	]
+}

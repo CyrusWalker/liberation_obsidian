@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"b79769f48d6fca3d","type":"text","text":"Headquarters","x":-80,"y":-120,"width":250,"height":60},
+		{"id":"2f2dc64d5a0d0ddc","type":"text","text":"Development\nConex\nStations for each player to interact with","x":-280,"y":106,"width":250,"height":374},
+		{"id":"cd9c26caf80d0b2d","type":"text","text":"Medical\nTent\n2 Cots for persons to lay on\n\t- Tray with implements\n\t- shelving/cabinets to hold equipment (bandages, meds)","x":100,"y":106,"width":250,"height":434},
+		{"id":"3f93f7f65f65ea21","type":"text","text":"Storage\nTent\nArmory cabinets\n\t\t- Store weapons, ammo, explosives\n\t- Supply cabinets\n\t\t- All other equipment (skill related items)","x":420,"y":106,"width":250,"height":434},
+		{"id":"bb9cd3418a37e50e","type":"text","text":"Target for OpFor?","x":-80,"y":-320,"width":250,"height":60},
+		{"id":"8c9771b0e3c6df0f","type":"text","text":"Defensive positions","x":-540,"y":-197,"width":170,"height":107},
+		{"id":"d08fb4551f9cad9e","type":"text","text":"Assign characters","x":-948,"y":-176,"width":250,"height":60},
+		{"id":"9b9fe036c8fa4d94","type":"text","text":"Purchased Items arrive here (time restricted)","x":580,"y":700,"width":250,"height":157},
+		{"id":"f7729281c4866601","type":"text","text":"C2\nConex\nFaction comms\nMap \nDossier","x":-580,"y":106,"width":250,"height":374}
+	],
+	"edges":[
+		{"id":"7b8380e77297082a","fromNode":"b79769f48d6fca3d","fromSide":"bottom","toNode":"f7729281c4866601","toSide":"top"},
+		{"id":"e2200ba9a94e18cc","fromNode":"b79769f48d6fca3d","fromSide":"bottom","toNode":"2f2dc64d5a0d0ddc","toSide":"top"},
+		{"id":"9fdec75cc0471a36","fromNode":"b79769f48d6fca3d","fromSide":"bottom","toNode":"cd9c26caf80d0b2d","toSide":"top"},
+		{"id":"6aa46e888aa8964c","fromNode":"b79769f48d6fca3d","fromSide":"bottom","toNode":"3f93f7f65f65ea21","toSide":"top"},
+		{"id":"edf9236058792a87","fromNode":"3f93f7f65f65ea21","fromSide":"bottom","toNode":"9b9fe036c8fa4d94","toSide":"top"},
+		{"id":"6fcc4c55f8c6baf8","fromNode":"b79769f48d6fca3d","fromSide":"top","toNode":"bb9cd3418a37e50e","toSide":"bottom"},
+		{"id":"365d89afaa48d674","fromNode":"b79769f48d6fca3d","fromSide":"left","toNode":"8c9771b0e3c6df0f","toSide":"right"},
+		{"id":"f17b2691ac57fd45","fromNode":"8c9771b0e3c6df0f","fromSide":"left","toNode":"d08fb4551f9cad9e","toSide":"right"}
+	]
+}

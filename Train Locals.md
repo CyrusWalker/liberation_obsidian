@@ -1,0 +1,3 @@
+Train Locals
+
+Back at the base, Jimmy can train willing locals to act as a reconnaissance force that will assist the merc company. Locals can give the team a heads up on incoming attacks, give additional intel on potential missions and provide extra details on specific mission map layouts. As Jimmy is training these resources he is able to assign them to different tasks that take a certain length of time to complete.
